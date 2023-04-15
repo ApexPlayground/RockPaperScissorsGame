@@ -41,21 +41,13 @@ button {
   margin-top: 20px;
 }
 
-.scores {
+.choices {
   display: flex;
-  align-items: center;
-  text-align: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
-.scores span {
-  margin-right: 10px;
-}
-
-.scores h5 {
-  margin: 0;
-}
-
-#player-score {
-  margin: 0;
+#player-choice,
+#computer-choice {
+  padding-right: 10px;
 }
